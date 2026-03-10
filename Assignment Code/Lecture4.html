@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lecture 4 - HTML Layout</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-color:#dbeafe;   /* nude blue background */
+margin:40px;
+}
+
+/* headings */
+h1{
+color:#0d47a1;
+}
+
+h2,h3{
+color:#0d47a1;
+}
+
+/* section style */
+.section{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* tables */
+table{
+border-collapse:collapse;
+width:60%;
+margin:auto;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0px 2px 6px rgba(0,0,0,0.1);
+}
+
+table, th, td{
+border:1px solid black;
+padding:8px;
+text-align:center;
+}
+
+.highlight{
+color:red;
+font-weight:bold;
+}
+
+/* code box (if needed later) */
+code{
+background:#eee;
+padding:10px;
+display:block;
+margin-top:10px;
+border-radius:6px;
+}
+
+/* navigation buttons */
+.nav-buttons{
+text-align:center;
+margin-top:40px;
+}
+
+.btn{
+background-color:#0d47a1;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+margin:10px;
+display:inline-block;
+font-weight:bold;
+}
+
+.btn:active{
+background-color:red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="section">
+
+<h1>Covered Topics</h1>
+
+<h2>HTML Tables</h2>
+<p>
+Tables are used to display data in rows and columns using table tags like
+table, tr, th, and td.
+</p>
+
+<h2>Div Element</h2>
+<p>
+Div is a block level element used to divide a webpage into sections
+such as header, content, and footer.
+</p>
+
+<h2>Span Element</h2>
+<p>
+Span is an inline element used to style small parts of text inside
+paragraphs or headings.
+</p>
+
+<h2>Layout Design</h2>
+<p>
+In modern web design, div elements are preferred for creating page
+layouts instead of tables.
+</p>
+
+</div>
+
+
+<div class="section">
+
+<h1>Example Code</h1>
+
+<h2>Table Example</h2>
+
+<table>
+<tr>
+<th>Name</th>
+<th>Subject</th>
+</tr>
+
+<tr>
+<td>Nimra</td>
+<td>Web Technology</td>
+</tr>
+
+<tr>
+<td>Bilal</td>
+<td>Programming</td>
+</tr>
+
+</table>
+
+<h2>Div Example</h2>
+
+<div style="background:#d5dbdb;padding:10px;margin-top:10px;border-radius:6px;">
+<h3>Header Section</h3>
+<p>This section is created using div.</p>
+</div>
+
+<h2>Span Example</h2>
+
+<p>
+This is a <span class="highlight">highlighted</span> word using span.
+</p>
+
+</div>
+
+
+<div class="section">
+
+<h1>Summary</h1>
+
+<p>
+HTML tables are used for displaying tabular data in rows and columns.
+The div element is used to divide a webpage into sections and create
+layouts. The span element is used for styling small parts of text
+inside a line. Modern web design prefers div and CSS for layout
+instead of using tables.
+</p>
+
+</div>
+
+<!-- Navigation Buttons -->
+
+<div class="nav-buttons">
+
+<a href="Lecture3.html" class="btn">Previous</a>
+<a href="index.html" class="btn">Home</a>
+<a href="Lecture5.html" class="btn">Next</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selectors Example</title>
+
+<style>
+
+/* Body & Background */
+body{
+    font-family: Arial, sans-serif;
+    background-color:#dbeafe;   /* nude blue */
+    margin:40px;
+}
+
+/* Headings */
+h1, h2{
+    color:#0d47a1;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Sections */
+.section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Lists */
+ol li{
+    color: blue;
+}
+
+ol > li{
+    font-weight: bold;
+}
+
+/* Attribute Selector */
+a[href="https://facebook.com"]{
+    color: red;
+}
+
+/* Pseudo Class Buttons */
+button{
+    background-color:#0d47a1;
+    font-size:20px;
+    width:200px;
+    height:50px;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:red;
+}
+
+/* Pseudo Element */
+p::first-letter{
+    font-size:30px;
+    color: purple;
+}
+
+/* Navigation buttons */
+.nav-buttons{
+    text-align:center;
+    margin-top:30px;
+}
+
+.btn{
+    background-color:#0d47a1;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+    margin:10px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.btn:active{
+    background-color:red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="section">
+<h1>CSS Selectors Example</h1>
+
+<h2>List Example</h2>
+<ol>
+<li>List item one</li>
+<li>List item two</li>
+<ul>
+<li>Sublist item A</li>
+<li>Sublist item B</li>
+</ul>
+<li>List item three</li>
+</ol>
+
+<h2>Attribute Selector Example</h2>
+<ul>
+<li><a href="https://google.com">Google</a></li>
+<li><a href="https://facebook.com">Facebook</a></li>
+<li><a href="https://amazon.com">Amazon</a></li>
+</ul>
+
+<h2>Pseudo Class Example</h2>
+<button>Click Me</button>
+
+<h2>Pseudo Element Example</h2>
+<p>This paragraph shows pseudo element styling.</p>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+<a href="Lecture7.Html" class="btn">Previous</a>
+<a href="index.html" class="btn">Home</a>
+</div>
+
+</body>
+</html>

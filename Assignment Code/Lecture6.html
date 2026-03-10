@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Forms Lecture Summary</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    background-color:#dbeafe;   /* nude blue background */
+}
+
+/* headings */
+h1{
+    color:#0d47a1;
+    text-align:center;
+}
+
+h2{
+    color:#0d47a1;
+}
+
+/* sections */
+section{
+    background:white;
+    margin:20px 0;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* unordered lists */
+ul{
+    line-height:1.8;
+}
+
+/* code block */
+.code{
+    background:#1e1e1e;
+    color:#00ff9c;
+    padding:15px;
+    border-radius:6px;
+    font-family: monospace;
+    overflow:auto;
+    margin-top:10px;
+}
+
+/* navigation buttons */
+.nav-buttons{
+    text-align:center;
+    margin-top:40px;
+}
+
+.btn{
+    background-color:#0d47a1;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+    margin:10px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.btn:active{
+    background-color:red;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>HTML Forms - Lecture 6</h1>
+
+<section>
+<h2>1. Summary</h2>
+<p>
+HTML Forms are used to collect user input in web applications.
+Forms are commonly used for login, registration, and feedback.
+The data entered by the user is sent to the server for processing.
+</p>
+</section>
+
+<section>
+<h2>2. Covered Topics</h2>
+<ul>
+<li>Introduction to HTML Forms</li>
+<li>&lt;form&gt; element</li>
+<li>Form attributes (action, method)</li>
+<li>&lt;label&gt; and &lt;input&gt; elements</li>
+<li>Common input types (text, email, password)</li>
+<li>Checkbox and radio buttons</li>
+<li>Dropdown lists using &lt;select&gt;</li>
+<li>&lt;textarea&gt; for multi-line text</li>
+<li>&lt;button&gt; element</li>
+<li>Form validation attributes</li>
+<li>Placeholder, name, and value attributes</li>
+<li>Form submission process</li>
+</ul>
+</section>
+
+<section>
+<h2>3. Basic Form Example</h2>
+
+<div class="code">
+&lt;form action="/submit" method="post"&gt;<br>
+<br>
+Name:<br>
+&lt;input type="text" name="username"&gt;<br><br>
+Email:<br>
+&lt;input type="email" name="email"&gt;<br><br>
+Password:<br>
+&lt;input type="password" name="password"&gt;<br><br>
+&lt;button type="submit"&gt;Submit&lt;/button&gt;<br>
+<br>
+&lt;/form&gt;
+</div>
+
+</section>
+
+<section>
+<h2>4. Checkbox Example</h2>
+
+<div class="code">
+&lt;input type="checkbox" name="subscribe"&gt; Subscribe to newsletter
+</div>
+
+</section>
+
+<section>
+<h2>5. Radio Button Example</h2>
+
+<div class="code">
+Gender:<br>
+&lt;input type="radio" name="gender" value="male"&gt; Male<br>
+&lt;input type="radio" name="gender" value="female"&gt; Female
+</div>
+
+</section>
+
+<section>
+<h2>6. Dropdown Example</h2>
+
+<div class="code">
+&lt;select name="country"&gt;<br>
+&lt;option&gt;Pakistan&lt;/option&gt;<br>
+&lt;option&gt;UK&lt;/option&gt;<br>
+&lt;option&gt;USA&lt;/option&gt;<br>
+&lt;/select&gt;
+</div>
+
+</section>
+
+<section>
+<h2>7. Textarea Example</h2>
+
+<div class="code">
+&lt;textarea rows="4" cols="40"&gt;<br>
+Enter your message here<br>
+&lt;/textarea&gt;
+</div>
+
+</section>
+
+<section>
+<h2>8. Form Validation Example</h2>
+
+<div class="code">
+&lt;input type="text" name="username" required maxlength="10" placeholder="Enter username"&gt;
+</div>
+
+</section>
+
+<section>
+<h2>9. Learning Outcomes</h2>
+<ul>
+<li>HTML forms are used to collect user input.</li>
+<li>Forms include elements like input, textarea, select, and button.</li>
+<li>Validation attributes help control user input.</li>
+<li>Forms send data to the server using GET or POST method.</li>
+</ul>
+</section>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+<a href="Lecture5.html" class="btn">Previous</a>
+<a href="index.html" class="btn">Home</a>
+<a href="Lecture7.html" class="btn">Next</a>
+</div>
+
+</body>
+</html>

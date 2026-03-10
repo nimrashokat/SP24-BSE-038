@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Lecture Example</title>
+
+<style>
+
+/* Body & Background */
+body{
+    font-family: Arial, sans-serif;
+    background-color:#dbeafe;   /* nude blue */
+    margin:40px;
+}
+
+/* Headings */
+h1, h2{
+    color:#0d47a1;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Sections */
+.section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Paragraph class example */
+.text{
+    font-size:20px;
+    color:green;
+}
+
+/* Box example */
+#box{
+    background-color:orange;
+    width:200px;
+    height:200px;
+    padding:20px;
+    margin:20px auto;
+    border:3px dashed black;
+    text-align:center;
+    line-height:160px;
+}
+
+/* Table Styling */
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+    width:60%;
+    margin:auto;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0px 2px 6px rgba(0,0,0,0.1);
+}
+
+th, td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+    background:white;
+}
+
+/* Fonts Examples */
+.serif{
+    font-family:"Times New Roman", serif;
+}
+
+.sans{
+    font-family:Arial, sans-serif;
+}
+
+.mono{
+    font-family:monospace;
+}
+
+/* Navigation buttons */
+.nav-buttons{
+    text-align:center;
+    margin-top:30px;
+}
+
+.btn{
+    background-color:#0d47a1;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+    margin:10px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.btn:active{
+    background-color:red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="section">
+<h1>CSS Example Page</h1>
+
+<p class="text">
+This paragraph uses a class selector.
+</p>
+
+<div id="box">
+Box Model Example
+</div>
+
+<h2>Font Examples</h2>
+
+<p class="serif">This is Serif Font</p>
+<p class="sans">This is Sans-serif Font</p>
+<p class="mono">This is Monospace Font</p>
+
+<h2>Student Table</h2>
+
+<table>
+<tr>
+<th>Name</th>
+<th>Subject</th>
+</tr>
+<tr>
+<td>Nimra</td>
+<td>Web Technology</td>
+</tr>
+<tr>
+<td>Bilal</td>
+<td>CSS</td>
+</tr>
+</table>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+<a href="Lecture6.html" class="btn">Previous</a>
+<a href="index.html" class="btn">Home</a>
+<a href="Lecture8.html" class="btn">Next</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML5 Lecture Summary</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    background-color:#dbeafe;   /* nude blue background */
+}
+
+/* headings */
+h1{
+    color:#0d47a1;
+    text-align:center;
+}
+
+h2{
+    color:#0d47a1;
+}
+
+/* sections */
+section{
+    padding:20px;
+    margin:20px 0;
+    background:white;
+    border-radius:12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* unordered lists */
+ul{
+    line-height:1.8;
+}
+
+/* code block */
+.code{
+    background:#272822;
+    color:#f8f8f2;
+    padding:15px;
+    border-radius:6px;
+    overflow:auto;
+    font-family: monospace;
+    margin-top:10px;
+}
+
+/* navigation buttons */
+.nav-buttons{
+    text-align:center;
+    margin-top:40px;
+}
+
+.btn{
+    background-color:#0d47a1;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:6px;
+    margin:10px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.btn:active{
+    background-color:red;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>HTML5 Introduction - Lecture Summary</h1>
+
+<section>
+<h2>1. What is HTML5?</h2>
+<p>
+HTML5 is the latest version of HTML used to create modern websites.
+It provides new elements, better structure, multimedia support, and
+works on different devices.
+</p>
+</section>
+
+<section>
+<h2>2. Key Features of HTML5</h2>
+<ul>
+<li>Responsive Design for different screen sizes</li>
+<li>Viewport Meta Tag for mobile devices</li>
+<li>Built-in Multimedia support (Audio & Video)</li>
+<li>Cross-platform compatibility</li>
+<li>New form input types (email, date, number etc.)</li>
+<li>Offline support using localStorage</li>
+</ul>
+</section>
+
+<section>
+<h2>3. HTML5 vs HTML4</h2>
+<ul>
+<li><b>HTML4:</b> Mostly used non-semantic tags like div and span.</li>
+<li><b>HTML5:</b> Introduced semantic elements like header, footer, article.</li>
+</ul>
+</section>
+
+<section>
+<h2>4. Importance of Semantic HTML</h2>
+<ul>
+<li>Improves SEO</li>
+<li>Better accessibility</li>
+<li>Clear structure of webpage</li>
+<li>Easy maintenance</li>
+</ul>
+</section>
+
+<section>
+<h2>5. Common Semantic Elements</h2>
+<ul>
+<li>&lt;header&gt;</li>
+<li>&lt;nav&gt;</li>
+<li>&lt;section&gt;</li>
+<li>&lt;article&gt;</li>
+<li>&lt;aside&gt;</li>
+<li>&lt;footer&gt;</li>
+</ul>
+</section>
+
+<section>
+<h2>6. Example Semantic Layout</h2>
+
+<div class="code">
+&lt;header&gt;<br>
+&nbsp;&nbsp;&lt;h1&gt;My Website&lt;/h1&gt;<br>
+&lt;/header&gt;<br><br>
+
+&lt;nav&gt;<br>
+&nbsp;&nbsp;&lt;a href="#"&gt;Home&lt;/a&gt;<br>
+&nbsp;&nbsp;&lt;a href="#"&gt;About&lt;/a&gt;<br>
+&lt;/nav&gt;<br><br>
+
+&lt;section&gt;<br>
+&nbsp;&nbsp;&lt;article&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Latest News&lt;/h2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is an article.&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/article&gt;<br>
+&lt;/section&gt;<br><br>
+
+&lt;footer&gt;<br>
+&nbsp;&nbsp;&lt;p&gt;Copyright 2024&lt;/p&gt;<br>
+&lt;/footer&gt;
+</div>
+
+</section>
+
+<section>
+<h2>7. Multimedia in HTML5</h2>
+
+<div class="code">
+&lt;video controls width="300"&gt;<br>
+&nbsp;&nbsp;&lt;source src="video.mp4" type="video/mp4"&gt;<br>
+&lt;/video&gt;
+</div>
+
+</section>
+
+<section>
+<h2>8. HTML5 Form Input Example</h2>
+
+<div class="code">
+&lt;form&gt;<br>
+Email: &lt;input type="email"&gt;&lt;br&gt;&lt;br&gt;<br>
+Date: &lt;input type="date"&gt;&lt;br&gt;&lt;br&gt;<br>
+Number: &lt;input type="number"&gt;<br>
+&lt;/form&gt;
+</div>
+
+</section>
+
+<section>
+<h2>9. HTML5 Storage Example</h2>
+
+<div class="code">
+&lt;script&gt;<br>
+localStorage.setItem("name","Fatima");<br>
+&lt;/script&gt;
+</div>
+
+</section>
+
+<section>
+<h2>10. Learning Outcomes</h2>
+<ul>
+<li>HTML5 modern web development ko easy banata hai.</li>
+<li>Semantic elements webpage structure improve karte hain.</li>
+<li>Multimedia aur storage features interactivity increase karte hain.</li>
+</ul>
+</section>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+<a href="Lecture4.html" class="btn">Previous</a>
+<a href="index.html" class="btn">Home</a>
+<a href="Lecture6.html" class="btn">Next</a>
+</div>
+
+</body>
+</html>
